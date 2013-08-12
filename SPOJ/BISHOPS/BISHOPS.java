@@ -13,7 +13,7 @@ import java.util.*;
 import java.math.*;
 
 class BISHOPS {
-    public void run() {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNextBigInteger()) {
             BigInteger N = in.nextBigInteger();
@@ -23,10 +23,6 @@ class BISHOPS {
             }
             System.out.println(N);
         }
-    }
-
-    public static void main(String[] args) {
-        (new Main()).run();
     }
 }
 
